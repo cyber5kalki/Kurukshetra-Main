@@ -3,6 +3,9 @@
 ## Project Description
 Kurukshetra is a user-friendly application designed to protect user password keys at rest (on the disk). It provides functionalities to encrypt and decrypt files using robust encryption algorithms. The application is built using CustomTkinter for the GUI and PyCryptodome for cryptographic operations.
 
+## image
+![image]D:\Script_kiddio\Desktop\Intel-Internship\Internship-Main\images\kurukshetra.gif
+
 ## Features
 - Encrypt files with a secure passphrase
 - Decrypt files with the corresponding passphrase
@@ -11,11 +14,9 @@ Kurukshetra is a user-friendly application designed to protect user password key
 - Progress indicators and status updates for encryption/decryption processes
 
 ## Requirements
-- Python 3.6 or higher
 - Cryptography
 - PyCryptodome
 - CustomTkinter
-- Pylance (optional for development)
 
 ## Installation
 1. Clone the repository:
@@ -30,6 +31,8 @@ Kurukshetra is a user-friendly application designed to protect user password key
     ```
 
 ## Usage
+1. Run the application:
+
 
 ### Running the Application
 1. Navigate to the project directory:

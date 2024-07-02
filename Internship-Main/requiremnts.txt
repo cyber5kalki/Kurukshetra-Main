@@ -1,5 +1,4 @@
 cryptography
 pycryptodome
-pylance
-customtkinter
 utils
+customtkinter
