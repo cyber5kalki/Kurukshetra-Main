@@ -3,7 +3,7 @@
 ## Project Description
 Kurukshetra is a user-friendly application designed to protect user password keys at rest (on the disk). It provides functionalities to encrypt and decrypt files using robust encryption algorithms. The application is built using CustomTkinter for the GUI and PyCryptodome for cryptographic operations.
 
-![Kurukshetra](images/kurukshetra.gif)
+![Kurukshetra](/Internship-Main/images/kurukshetra.gif)
 
 ## Features
 - Encrypt files with a secure passphrase
