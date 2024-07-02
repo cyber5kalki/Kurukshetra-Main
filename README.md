@@ -3,8 +3,7 @@
 ## Project Description
 Kurukshetra is a user-friendly application designed to protect user password keys at rest (on the disk). It provides functionalities to encrypt and decrypt files using robust encryption algorithms. The application is built using CustomTkinter for the GUI and PyCryptodome for cryptographic operations.
 
-## image
-![image]D:\Script_kiddio\Desktop\Intel-Internship\Internship-Main\images\kurukshetra.gif
+![Kurukshetra](images/kurukshetra.gif)
 
 ## Features
 - Encrypt files with a secure passphrase
@@ -16,12 +15,13 @@ Kurukshetra is a user-friendly application designed to protect user password key
 ## Requirements
 - Cryptography
 - PyCryptodome
+- utils
 - CustomTkinter
 
 ## Installation
 1. Clone the repository:
     ```sh
-    git clone https://github.com/yourusername/kurukshetra.git
+    git clone https://github.com/cyber5kalki/Kurukshetra-Main.git
     cd kurukshetra
     ```
 
@@ -42,7 +42,7 @@ Kurukshetra is a user-friendly application designed to protect user password key
 
 2. Run the main application:
     ```sh
-    python home.py
+    python - u home.py
     ```
 
 ### Encrypting a File
@@ -61,18 +61,17 @@ Kurukshetra is a user-friendly application designed to protect user password key
 
 ## File Structure
 ```plaintext
-kurukshetra/
-│
-├── images/
-│   ├── encryption.png
-│   ├── decryption.png
-│   └── kurukshetra.gif
-│
-├── encrypt.py
-├── encrypt_gui.py
-├── decrypt.py
-├── decrypt_gui.py
-├── encryption_decryption_app.py
-├── home.py
-├── utils.py
-└── requirements.txt
+kurukshetra-Main
+├── README.md
+├── Internship-Main
+│   ├── assests
+│   ├── images
+│   ├── home.py
+│   ├── encryption_decryption_app.py
+│   ├── encrypt.py
+│   ├── decrypt.py
+│   ├── utils.py
+│   ├── encrypt_gui.py
+│   ├── decrypt_gui.py
+│   ├── requirements.txt
+
