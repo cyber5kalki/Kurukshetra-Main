@@ -44,7 +44,7 @@ In the epic Mahabharata, Kurukshetra symbolizes a monumental battle, drawing a p
 ![Decrypt](src/Decrypt.jpeg)
 
 7. **Demo video**
-![Watch the video](https://drive.google.com/file/d/1PQQepLfM7AC0A-OVkK75TcMMQ2jjSzTy/view?usp=sharing)
+![Watch the video](https://drive.google.com/file/d/1PQQepLfM7AC0A-OVkK75TcMMQ2jjSzTy/view)
 
 ## Installation
 1. Clone the repository:
@@ -74,10 +74,10 @@ In the epic Mahabharata, Kurukshetra symbolizes a monumental battle, drawing a p
     ```
 
 ### Encrypting a File
-1. Open the application and select "Encryption/Decryption".
+1. Open the home.py application and select "Encryption/Decryption".
 2. In the new window, choose the "Encryption" option.
 3. Browse for the file you want to encrypt.
-4. Enter a secure passphrase that meets the validation criteria.
+4. Enter a strong passphrase that meets the validation criteria, and save it as a file and an FEK file for security.
 5. Click "Encrypt" and wait for the process to complete.
 
 ### Decrypting a File
@@ -90,6 +90,7 @@ In the epic Mahabharata, Kurukshetra symbolizes a monumental battle, drawing a p
 ## File Structure
 ```plaintext
 kurukshetra-Main
+├── src
 ├── README.md
 ├── Internship-Main
 │   ├── assests
