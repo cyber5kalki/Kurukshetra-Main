@@ -25,7 +25,7 @@ Kurukshetra is a user-friendly application designed to protect user password key
 2. **Encrypt a File**:
     - Click on the "Encrypt" button.
     - Select the file you want to encrypt.
-    - Enter a passphrase and confirm it.
+    - Enter a passphrase and save the .fek file and then save in the disk.
     - Click "Encrypt" to secure your file.
 
 3. **Decrypt a File**:
@@ -36,11 +36,15 @@ Kurukshetra is a user-friendly application designed to protect user password key
 
 4. **Work Flow**
 ![Flowchat](src\Flowchat.jpeg)
+
 5. **Encrypt(Work Flow)**
 ![Encrypt](src\Encrypt.jpeg)
+
 6. **Decrypt(Work Flow)**
 ![Decrypt](src\Decrypt.jpeg)
 
+7. **Demo video**
+![Watch the video](src\Demo.mp4)
 
 ## Installation
 1. Clone the repository:
