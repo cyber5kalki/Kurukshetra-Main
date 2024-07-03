@@ -35,16 +35,16 @@ Kurukshetra is a user-friendly application designed to protect user password key
     - Click "Decrypt" to access your file.
 
 4. **Work Flow**
-![Flowchat](src\Flowchat.jpeg)
+![Flowchat](src/Flowchat.jpeg)
 
 5. **Encrypt(Work Flow)**
-![Encrypt](src\Encrypt.jpeg)
+![Encrypt](src/Encrypt.jpeg)
 
 6. **Decrypt(Work Flow)**
-![Decrypt](src\Decrypt.jpeg)
+![Decrypt](src/Decrypt.jpeg)
 
 7. **Demo video**
-[![Watch the video](https://drive.google.com/file/d/1PQQepLfM7AC0A-OVkK75TcMMQ2jjSzTy/view?usp=drive_link)
+![Watch the video](https://drive.google.com/file/d/1PQQepLfM7AC0A-OVkK75TcMMQ2jjSzTy/view?usp=drive_link)
 
 ## Installation
 1. Clone the repository:
