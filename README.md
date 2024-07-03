@@ -44,7 +44,7 @@ Kurukshetra is a user-friendly application designed to protect user password key
 ![Decrypt](src/Decrypt.jpeg)
 
 7. **Demo video**
-![Watch the video](https://drive.google.com/file/d/1PQQepLfM7AC0A-OVkK75TcMMQ2jjSzTy/view?usp=drive_link)
+![Watch the video](https://drive.google.com/file/d/1PQQepLfM7AC0A-OVkK75TcMMQ2jjSzTy/view?usp=sharing)
 
 ## Installation
 1. Clone the repository:
