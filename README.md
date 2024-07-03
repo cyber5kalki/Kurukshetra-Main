@@ -2,10 +2,7 @@
 
 Kurukshetra symbolizes a monumental battle, drawing a parallel to the critical importance of securing files and data with utmost confidentiality.
 
-<p align="center">
-  <img src="images/kurukshetra.gif" alt="Kurukshetra GIF" width="300">
-</p>
-
+<img src="/Internship-Main/images/kurukshetra.gif" alt="Kurukshetra GIF" align="center" width="300">
 
 ## Table of Contents
 
@@ -81,12 +78,13 @@ The application's workflow is designed to provide a seamless experience for user
 ![Decrypt](src/Decrypt.jpeg)
 
 ## Result
-![Result](src/Project-Screenshorts/home-app.png)
-![Result](src/Project-Screenshorts/encrypt-app.png)
-![Result](src/Project-Screenshorts/encrypt.png)
-![Result](src/Project-Screenshorts/decrypt-app.png)
-![Result](src/Project-Screenshorts/decrypt.png)
-![Video-Demo](src/Kurukshetra-Demo.mp4)
+![home-app](src/Project-Screenshorts/home-app.png)
+![encrypt-app](src/Project-Screenshorts/encrypt-app.png)
+![encrypt-save](src/Project-Screenshorts/encrypt.png)
+![decrypt-app](src/Project-Screenshorts/decrypt-app.png)
+![decrypt-save](src/Project-Screenshorts/decrypt.png)
+![Kurukshetra-Demo](src/Kurukshetra-Demo.mp4)
+
 
 ## File Structure
 ```plaintext
