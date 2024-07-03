@@ -1,0 +1,4 @@
+cryptography>=38.0.4
+pycryptodome>=3.14.1
+utils
+customtkinter>=5.1.3
