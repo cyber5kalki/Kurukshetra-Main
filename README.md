@@ -18,6 +18,23 @@ Kurukshetra is a user-friendly application designed to protect user password key
 - utils
 - CustomTkinter
 
+## Usage
+1. **Launch the Application**:
+   Run `home.py` to start the application. The welcome screen will guide you through the next steps.
+
+2. **Encrypt a File**:
+    - Click on the "Encrypt" button.
+    - Select the file you want to encrypt.
+    - Enter a passphrase and confirm it.
+    - Click "Encrypt" to secure your file.
+
+3. **Decrypt a File**:
+    - Click on the "Decrypt" button.
+    - Select the encrypted file.
+    - Enter the passphrase used during encryption.
+    - Click "Decrypt" to access your file.
+
+
 ## Installation
 1. Clone the repository:
     ```sh
