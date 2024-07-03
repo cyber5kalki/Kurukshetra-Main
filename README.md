@@ -1,4 +1,4 @@
-# Kurukshetra: File Encryption and Decryption Tool
+# Kurukshetra: File Encryption and Decryption Using AES-256 Algorithm
 
 ## Project Description
 Kurukshetra is a user-friendly application designed to protect user password keys at rest (on the disk). It provides functionalities to encrypt and decrypt files using robust encryption algorithms. The application is built using CustomTkinter for the GUI and PyCryptodome for cryptographic operations.

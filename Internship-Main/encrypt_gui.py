@@ -13,7 +13,7 @@ def select_file():
         file_entry.insert('end', filename)
 
 def show_custom_message(title, message, on_close=None):
-    message_dialog = ctk.CTk()
+    message_dialog = ctk.CTkToplevel(root)
     message_dialog.title(title)
     message_dialog.geometry("750x100")
 
@@ -25,7 +25,6 @@ def show_custom_message(title, message, on_close=None):
 
     ctk.CTkLabel(message_dialog, text=message).pack(padx=20, pady=10)
     ctk.CTkButton(message_dialog, text="OK", command=close_dialog).pack(pady=10)
-    message_dialog.mainloop()
 
 def validate_passphrase(passphrase):
     if len(passphrase) < 8:
@@ -41,27 +40,33 @@ def validate_passphrase(passphrase):
     return True
 
 def perform_encryption(file_path, passphrase):
-    progress_bar.set(0)
-    status_label.configure(text=f"Reading file '{os.path.basename(file_path)}'...")
-    time.sleep(1)  # Simulate delay
+    def update_status_bar(progress, message):
+        progress_bar.set(progress)
+        status_label.configure(text=message)
+
+    def encryption_complete(success, encrypted_file_path=None, error=None):
+        if success:
+            show_custom_message("Success", f'File encrypted successfully: {os.path.basename(encrypted_file_path)}', on_close=root.quit)
+        else:
+            show_custom_message("Error", f"Encryption failed: {error}")
+        status_label.configure(text="")
+        progress_bar.set(0)
 
     try:
-        progress_bar.set(0.3)  # Update progress bar
-        status_label.configure(text=f"Encrypting data from '{os.path.basename(file_path)}'...")
+        root.after(0, update_status_bar, 0, f"Reading file '{os.path.basename(file_path)}'...")
+        time.sleep(1)  # Simulate delay
+
+        root.after(0, update_status_bar, 0.3, f"Encrypting data from '{os.path.basename(file_path)}'...")
         time.sleep(1)  # Simulate delay
 
         encrypted_file_path = encrypt_file(file_path, passphrase)
-        progress_bar.set(0.7)  # Update progress bar
-        status_label.configure(text=f"Saving encrypted file '{os.path.basename(encrypted_file_path)}'...")
+        root.after(0, update_status_bar, 0.7, f"Saving encrypted file '{os.path.basename(encrypted_file_path)}'...")
         time.sleep(1)  # Simulate delay
 
-        progress_bar.set(1.0)  # Update progress bar
-        show_custom_message("Success", f'File encrypted successfully: {os.path.basename(encrypted_file_path)}', on_close=root.quit)
+        root.after(0, update_status_bar, 1.0, "")
+        root.after(0, encryption_complete, True, encrypted_file_path)
     except Exception as e:
-        show_custom_message("Error", f"Encryption failed: {str(e)}")
-    finally:
-        status_label.configure(text="")
-        progress_bar.set(0)
+        root.after(0, encryption_complete, False, error=str(e))
 
 def encrypt():
     file_path = file_entry.get()
@@ -77,8 +82,8 @@ def encrypt():
     Thread(target=perform_encryption, args=(file_path, passphrase)).start()
 
 # Create GUI window
-ctk.set_appearance_mode("dark")  # Options: "light", "dark", "system"
-ctk.set_default_color_theme("green")  # Options: "blue", "green", "dark-blue"
+ctk.set_appearance_mode("dark") 
+ctk.set_default_color_theme("green") 
 
 root = ctk.CTk()
 root.title("Encryption")

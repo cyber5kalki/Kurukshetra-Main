@@ -77,8 +77,8 @@ def decrypt():
     Thread(target=perform_decryption).start()
 
 # Create GUI window
-ctk.set_appearance_mode("dark")  # Options: "light", "dark", "system"
-ctk.set_default_color_theme("green")  # Options: "blue", "green", "dark-blue"
+ctk.set_appearance_mode("dark")
+ctk.set_default_color_theme("green")
 
 root = ctk.CTk()
 root.title("Decryption")

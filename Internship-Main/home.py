@@ -37,8 +37,8 @@ def update_gif(label, gif_frames, frame_index):
     root.after(50, update_gif, label, gif_frames, frame_index)  # Reduced delay to increase speed
 
 # Create the main window
-ctk.set_appearance_mode("dark")  # Options: "light", "dark", "system"
-ctk.set_default_color_theme("green")  # Options: "blue", "green", "dark-blue"
+ctk.set_appearance_mode("dark")
+ctk.set_default_color_theme("green") 
 
 root = ctk.CTk()
 root.title("Kurukshetra")
