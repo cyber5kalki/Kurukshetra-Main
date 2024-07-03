@@ -2,7 +2,10 @@
 
 Kurukshetra symbolizes a monumental battle, drawing a parallel to the critical importance of securing files and data with utmost confidentiality.
 
-<img src="/Internship-Main/images/kurukshetra.gif" alt="Kurukshetra GIF" width="300">
+<p align="center">
+  <img src="images/kurukshetra.gif" alt="Kurukshetra GIF" width="300">
+</p>
+
 
 ## Table of Contents
 
@@ -11,6 +14,7 @@ Kurukshetra symbolizes a monumental battle, drawing a parallel to the critical i
 - [Installation](#installation)
 - [Running the Application](#running-the-application)
 - [Application Workflow](#application-workflow)
+- [Result](#result)
 - [File Structure](#file-structure)
 
 
@@ -82,6 +86,7 @@ The application's workflow is designed to provide a seamless experience for user
 ![Result](src/Project-Screenshorts/encrypt.png)
 ![Result](src/Project-Screenshorts/decrypt-app.png)
 ![Result](src/Project-Screenshorts/decrypt.png)
+![Video-Demo](src/Kurukshetra-Demo.mp4)
 
 ## File Structure
 ```plaintext
