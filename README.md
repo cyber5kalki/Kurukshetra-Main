@@ -1,38 +1,71 @@
-# Kurukshetra: File Encryption and Decryption Using AES-256 Algorithm
+# The Kurukshetra
 
-## Project Description
+Kurukshetra symbolizes a monumental battle, drawing a parallel to the critical importance of securing files and data with utmost confidentiality.
+
+<img src="/Internship-Main/images/kurukshetra.gif" alt="Kurukshetra GIF" width="300">
+
+## Table of Contents
+
+- [Overview](#overview)
+- [Features](#features)
+- [Installation](#installation)
+- [Running the Application](#running-the-application)
+- [Application Workflow](#application-workflow)
+- [File Structure](#file-structure)
+
+
+## Overview
+
 In the epic Mahabharata, Kurukshetra symbolizes a monumental battle, drawing a parallel to the critical importance of securing files and data with utmost confidentiality. Any compromise in file confidentiality can lead to potential data breaches, emphasizing the crucial role of protecting, encrypting, and decrypting data as a vital defense strategy. This analogy inspires the project's title, Kurukshetra.
 
-![Kurukshetra](/Internship-Main/images/kurukshetra.gif)
-
 ## Features
+
 - Encrypt files with a secure passphrase
 - Decrypt files with the corresponding passphrase
 - Validate passphrases to ensure they meet security criteria
 - User-friendly GUI built with CustomTkinter
 - Progress indicators and status updates for encryption/decryption processes
 
-## Requirements
-- Cryptography
-- PyCryptodome
-- utils
-- CustomTkinter
+## Installation
 
-## Usage
-1. **Launch the Application**:
-   Run `home.py` to start the application. The welcome screen will guide you through the next steps.
+1. Clone the repository:
+   ```sh
+   git clone https://github.com/cyber5kalki/Kurukshetra-Main.git
+   cd Kurukshetra-Main
+    ```
+2. Install the required dependencies:
+    ```sh
+    pip install -r requirements.txt
+    ```
+### Running the Application
 
-2. **Encrypt a File**:
-    - Click on the "Encrypt" button.
-    - Select the file you want to encrypt.
-    - Enter a passphrase and save the .fek file and then save in the disk.
-    - Click "Encrypt" to secure your file.
+1. Navigate to the project directory:
+    ```sh
+    cd kurukshetra
+    ```
+2. Run the main application:
+    ```sh
+    python -u home.py
+    ```
 
-3. **Decrypt a File**:
-    - Click on the "Decrypt" button.
-    - Select the encrypted and key as .fek file.
-    - Enter the passphrase used during encryption.
-    - Click "Decrypt" to access your file.
+## Application Workflow
+The application's workflow is designed to provide a seamless experience for users. The following steps outline the process
+
+1. **User Input:**
+   - The user selects a file or directory to encrypt.
+   - The user provides a passphrase.
+
+2. **Encryption Process:**
+   - Generate a random File Encryption Key (FEK).
+   - Encrypt the file or directory using AES-256 with the FEK.
+   - Use a Key Derivation Function (KDF) to generate a key from the user's passphrase and with validation criteria.
+   - Encrypt the FEK using the derived key and store it securely.
+
+3.**Decryption Process:**
+   - The user provides the passphrase.
+   - Use the KDF to generate the key from the passphrase.
+   - Decrypt the FEK using the derived key.
+   - Decrypt the file or directory using the FEK.
 
 4. **Work Flow**
 ![Flowchat](src/Flowchat.jpeg)
@@ -43,64 +76,27 @@ In the epic Mahabharata, Kurukshetra symbolizes a monumental battle, drawing a p
 6. **Decrypt(Work Flow)**
 ![Decrypt](src/Decrypt.jpeg)
 
-7. **Demo video**
-![Watch the video](https://drive.google.com/file/d/1PQQepLfM7AC0A-OVkK75TcMMQ2jjSzTy/view)
-
-## Installation
-1. Clone the repository:
-    ```sh
-    git clone https://github.com/cyber5kalki/Kurukshetra-Main.git
-    cd kurukshetra
-    ```
-
-2. Install the required dependencies:
-    ```sh
-    pip install -r requirements.txt
-    ```
-
-## Usage
-1. Run the application:
-
-
-### Running the Application
-1. Navigate to the project directory:
-    ```sh
-    cd kurukshetra
-    ```
-
-2. Run the main application:
-    ```sh
-    python - u home.py
-    ```
-
-### Encrypting a File
-1. Open the home.py application and select "Encryption/Decryption".
-2. In the new window, choose the "Encryption" option.
-3. Browse for the file you want to encrypt.
-4. Enter a strong passphrase that meets the validation criteria, and save it as a file and an FEK file for security.
-5. Click "Encrypt" and wait for the process to complete.
-
-### Decrypting a File
-1. Open the application and select "Encryption/Decryption".
-2. In the new window, choose the "Decryption" option.
-3. Browse for the encrypted file and the corresponding FEK file.
-4. Enter the passphrase used for encryption.
-5. Click "Decrypt" and wait for the process to complete.
+## Result
+![Result](src/Project-Screenshorts/home-app.png)
+![Result](src/Project-Screenshorts/encrypt-app.png)
+![Result](src/Project-Screenshorts/encrypt.png)
+![Result](src/Project-Screenshorts/decrypt-app.png)
+![Result](src/Project-Screenshorts/decrypt.png)
 
 ## File Structure
 ```plaintext
-kurukshetra-Main
-├── src
+kurukshetra-Main/
 ├── README.md
-├── Internship-Main
-│   ├── assests
-│   ├── images
-│   ├── home.py
-│   ├── encryption_decryption_app.py
-│   ├── encrypt.py
-│   ├── decrypt.py
-│   ├── utils.py
-│   ├── encrypt_gui.py
-│   ├── decrypt_gui.py
-│   ├── requirements.txt
+├── src/                    # Directory for Project resource files
+└── Internship-Main/
+    ├── assets/             # Directory for various Random files
+    ├── images/             # Directory for image files
+    ├── home.py             # File handling setup and initial execution
+    ├── encryption_decryption_app.py   # Main application file for encryption and decryption
+    ├── encrypt.py          # Logic file for encryption
+    ├── decrypt.py          # Logic file for decryption
+    ├── utils.py            # Utility functions
+    ├── encrypt_gui.py      # Graphical interface for encryption
+    ├── decrypt_gui.py      # Graphical interface for decryption
+    └──requirements.txt
 
