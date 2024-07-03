@@ -30,9 +30,16 @@ Kurukshetra is a user-friendly application designed to protect user password key
 
 3. **Decrypt a File**:
     - Click on the "Decrypt" button.
-    - Select the encrypted file.
+    - Select the encrypted and key as .fek file.
     - Enter the passphrase used during encryption.
     - Click "Decrypt" to access your file.
+
+4. **Work Flow**
+![Flowchat](src\Flowchat.jpeg)
+5. **Encrypt(Work Flow)**
+![Encrypt](src\Encrypt.jpeg)
+6. **Decrypt(Work Flow)**
+![Decrypt](src\Decrypt.jpeg)
 
 
 ## Installation
