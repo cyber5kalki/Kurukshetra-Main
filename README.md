@@ -1,7 +1,7 @@
 # Kurukshetra: File Encryption and Decryption Using AES-256 Algorithm
 
 ## Project Description
-Kurukshetra is a user-friendly application designed to protect user password keys at rest (on the disk). It provides functionalities to encrypt and decrypt files using robust encryption algorithms. The application is built using CustomTkinter for the GUI and PyCryptodome for cryptographic operations.
+In the epic Mahabharata, Kurukshetra symbolizes a monumental battle, drawing a parallel to the critical importance of securing files and data with utmost confidentiality. Any compromise in file confidentiality can lead to potential data breaches, emphasizing the crucial role of protecting, encrypting, and decrypting data as a vital defense strategy. This analogy inspires the project's title, Kurukshetra.
 
 ![Kurukshetra](/Internship-Main/images/kurukshetra.gif)
 
