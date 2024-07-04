@@ -78,7 +78,7 @@ The application's workflow is designed to provide a seamless experience for user
 ![Decrypt](src/Decrypt.jpeg)
 
 ## Result
-*
+
 ![home-app](src/Project-Screenshorts/home-app.png)
 
 ![encrypt-app](src/Project-Screenshorts/encrypt-app.png)
