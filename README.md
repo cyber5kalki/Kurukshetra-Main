@@ -79,22 +79,22 @@ The application's workflow is designed to provide a seamless experience for user
 
 ## Result
 
-1. **home-app**
+1. *home-app*
 ![home-app](src/Project-Screenshorts/home-app.png)
 
-2. **encrypt-app**
+2. *encrypt-app*
 ![encrypt-app](src/Project-Screenshorts/encrypt-app.png)
 
-3. **encrypt-save**
+3. *encrypt-save*
 ![encrypt-save](src/Project-Screenshorts/encrypt.png)
 
-4. **decrypt-app**
+4. *decrypt-app*
 ![decrypt-app](src/Project-Screenshorts/decrypt-app.png)
 
-5. **decrypt-save**
+5. *decrypt-save*
 ![decrypt-save](src/Project-Screenshorts/decrypt.png)
 
-6. **Kurukshetra-Demo-Video**
+6. *Kurukshetra-Demo-Video*
 [![Kurukshetra-Demo](src/Kurukshetra.jpg)](https://drive.google.com/file/d/1PQQepLfM7AC0A-OVkK75TcMMQ2jjSzTy/view?usp=sharing)
 
 
