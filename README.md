@@ -42,7 +42,7 @@ In the epic Mahabharata, Kurukshetra symbolizes a monumental battle, drawing a p
 
 1. Navigate to the project directory:
     ```sh
-    cd kurukshetra
+    cd Internship-Main
     ```
 2. Run the main application:
     ```sh
@@ -101,5 +101,6 @@ kurukshetra-Main/
     ├── encrypt_gui.py      # Graphical interface for encryption
     ├── decrypt_gui.py      # Graphical interface for decryption
     └──requirements.txt
+
 
     
