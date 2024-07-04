@@ -2,7 +2,7 @@
 
 Kurukshetra symbolizes a monumental battle, drawing a parallel to the critical importance of securing files and data with utmost confidentiality.
 
-<center><img src="/Internship-Main/images/kurukshetra.gif" alt="Kurukshetra GIF" align="center" width="300"></center>center>
+<center><img src="/Internship-Main/images/kurukshetra.gif" alt="Kurukshetra GIF" align="center" width="300"></center>
 
 ## Table of Contents
 
