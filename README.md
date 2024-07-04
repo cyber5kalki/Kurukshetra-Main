@@ -62,7 +62,7 @@ The application's workflow is designed to provide a seamless experience for user
    - Use a Key Derivation Function (KDF) to generate a key from the user's passphrase and with validation criteria.
    - Encrypt the FEK using the derived key and store it securely.
 
-3.**Decryption Process:**
+3. **Decryption Process:**
    - The user provides the passphrase.
    - Use the KDF to generate the key from the passphrase.
    - Decrypt the FEK using the derived key.
@@ -83,8 +83,7 @@ The application's workflow is designed to provide a seamless experience for user
 ![encrypt-save](src/Project-Screenshorts/encrypt.png)
 ![decrypt-app](src/Project-Screenshorts/decrypt-app.png)
 ![decrypt-save](src/Project-Screenshorts/decrypt.png)
-![Kurukshetra-Demo](https://drive.google.com/file/d/1PQQepLfM7AC0A-OVkK75TcMMQ2jjSzTy/view?usp=drive_link)
-
+<iframe width="560" height="315" src="src/Kurukshetra-Demo.mp4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## File Structure
 ```plaintext
@@ -103,3 +102,4 @@ kurukshetra-Main/
     ├── decrypt_gui.py      # Graphical interface for decryption
     └──requirements.txt
 
+    
