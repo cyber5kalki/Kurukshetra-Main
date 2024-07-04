@@ -83,7 +83,7 @@ The application's workflow is designed to provide a seamless experience for user
 ![encrypt-save](src/Project-Screenshorts/encrypt.png)
 ![decrypt-app](src/Project-Screenshorts/decrypt-app.png)
 ![decrypt-save](src/Project-Screenshorts/decrypt.png)
-[![Video Title](src/Kurukshetra.jpg)](src/Kurukshetra-Demo.mp4)
+[![Kurukshetra-Demo](src/Kurukshetra.jpg)](https://drive.google.com/file/d/1PQQepLfM7AC0A-OVkK75TcMMQ2jjSzTy/view?usp=sharing)
 
 ## File Structure
 ```plaintext
