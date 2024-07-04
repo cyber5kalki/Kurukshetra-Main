@@ -8,6 +8,7 @@ Kurukshetra symbolizes a monumental battle, drawing a parallel to the critical i
 
 - [Overview](#overview)
 - [Features](#features)
+- [Documentation](#Decumentation)
 - [Installation](#installation)
 - [Running the Application](#running-the-application)
 - [Application Workflow](#application-workflow)
@@ -26,6 +27,11 @@ In the epic Mahabharata, Kurukshetra symbolizes a monumental battle, drawing a p
 - Validate passphrases to ensure they meet security criteria
 - User-friendly GUI built with CustomTkinter
 - Progress indicators and status updates for encryption/decryption processes
+
+## Documentation
+
+[Documentation](src/The-Kurukshetra-Report.docx)
+[ppt](src/The-Kurukshetra-ppt.pptx)
 
 ## Installation
 
@@ -78,12 +84,27 @@ The application's workflow is designed to provide a seamless experience for user
 ![Decrypt](src/Decrypt.jpeg)
 
 ## Result
+1. **Home-app**
 ![home-app](src/Project-Screenshorts/home-app.png)
+
+2. **encrypt-app**
 ![encrypt-app](src/Project-Screenshorts/encrypt-app.png)
+
+3. **encrypt-save**
 ![encrypt-save](src/Project-Screenshorts/encrypt.png)
+
+4. **decrypt-app**
 ![decrypt-app](src/Project-Screenshorts/decrypt-app.png)
+
+5. **decrypt-save**
 ![decrypt-save](src/Project-Screenshorts/decrypt.png)
+
+6. **Kurukshetra-Demo-Video**
+*Click the image to open the link. If it doesn't open in a new tab, you can right-click the link and select "Open link in new tab".*
 [![Kurukshetra-Demo](src/Kurukshetra.jpg)](https://drive.google.com/file/d/1PQQepLfM7AC0A-OVkK75TcMMQ2jjSzTy/view?usp=sharing)
+
+
+
 
 ## File Structure
 ```plaintext
