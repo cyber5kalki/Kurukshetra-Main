@@ -30,8 +30,8 @@ In the epic Mahabharata, Kurukshetra symbolizes a monumental battle, drawing a p
 
 ## Documentation
 
-[Documentation](src/The-Kurukshetra-Report.docx)
-[ppt](src/The-Kurukshetra-ppt.pptx)
+[Documentation](https://docs.google.com/document/d/1OviaqHaZiU4zQsm8xxxgSK7kJIiMatgC/edit?usp=drive_link)
+[ppt](https://docs.google.com/presentation/d/129yToklxl52cg2_rEGOe_ZXKpxDZnxsQ/edit?usp=drive_link)
 
 ## Installation
 
@@ -103,8 +103,6 @@ The application's workflow is designed to provide a seamless experience for user
 6. **Kurukshetra-Demo-Video**
 *Click the image to open the link. If it doesn't open in a new tab, you can right-click the link and select "Open link in new tab".*
 [![Kurukshetra-Demo](src/Kurukshetra.jpg)](https://drive.google.com/file/d/1PQQepLfM7AC0A-OVkK75TcMMQ2jjSzTy/view?usp=sharing)
-
-
 
 
 ## File Structure
