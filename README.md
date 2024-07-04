@@ -8,7 +8,6 @@ Kurukshetra symbolizes a monumental battle, drawing a parallel to the critical i
 
 - [Overview](#overview)
 - [Features](#features)
-- [Documentation](#Decumentation)
 - [Installation](#installation)
 - [Running the Application](#running-the-application)
 - [Application Workflow](#application-workflow)
@@ -27,11 +26,6 @@ In the epic Mahabharata, Kurukshetra symbolizes a monumental battle, drawing a p
 - Validate passphrases to ensure they meet security criteria
 - User-friendly GUI built with CustomTkinter
 - Progress indicators and status updates for encryption/decryption processes
-
-## Documentation
-
-[Documentation](https://docs.google.com/document/d/1OviaqHaZiU4zQsm8xxxgSK7kJIiMatgC/edit?usp=drive_link)
-[ppt](https://docs.google.com/presentation/d/129yToklxl52cg2_rEGOe_ZXKpxDZnxsQ/edit?usp=drive_link)
 
 ## Installation
 
@@ -85,7 +79,7 @@ The application's workflow is designed to provide a seamless experience for user
 
 ## Result
 
-1. **Home-app**
+1. **home-app**
 ![home-app](src/Project-Screenshorts/home-app.png)
 
 2. **encrypt-app**
