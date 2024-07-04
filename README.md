@@ -83,7 +83,7 @@ The application's workflow is designed to provide a seamless experience for user
 ![encrypt-save](src/Project-Screenshorts/encrypt.png)
 ![decrypt-app](src/Project-Screenshorts/decrypt-app.png)
 ![decrypt-save](src/Project-Screenshorts/decrypt.png)
-<iframe width="560" height="315" src="src/Kurukshetra-Demo.mp4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe src="https://drive.google.com/file/d/1PQQepLfM7AC0A-OVkK75TcMMQ2jjSzTy/view?usp=sharing" width="1280" height="720"></iframe>
 
 ## File Structure
 ```plaintext
