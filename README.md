@@ -79,7 +79,7 @@ The application's workflow is designed to provide a seamless experience for user
 
 ## Result
 
-1.**home-app**
+1. **home-app**
 ![home-app](src/Project-Screenshorts/home-app.png)
 
 2. **encrypt-app**
@@ -95,8 +95,8 @@ The application's workflow is designed to provide a seamless experience for user
 ![decrypt-save](src/Project-Screenshorts/decrypt.png)
 
 6. **Kurukshetra-Demo-Video**
-[![Kurukshetra-Demo](src/Kurukshetra.jpg)](https://drive.google.com/file/d/1PQQepLfM7AC0A-OVkK75TcMMQ2jjSzTy/view?usp=sharing)
 
+[![Kurukshetra-Demo](src/Kurukshetra.jpg)](https://drive.google.com/file/d/1PQQepLfM7AC0A-OVkK75TcMMQ2jjSzTy/view?usp=sharing)
 
 ## File Structure
 ```plaintext
