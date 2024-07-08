@@ -34,17 +34,18 @@ In the epic Mahabharata, Kurukshetra symbolizes a monumental battle, drawing a p
    git clone https://github.com/cyber5kalki/Kurukshetra-Main.git
    cd Kurukshetra-Main
     ```
-2. Install the required dependencies:
-    ```sh
-    pip install -r requirements.txt
-    ```
+    
 ### Running the Application
 
 1. Navigate to the project directory:
     ```sh
     cd Internship-Main
     ```
-2. Run the main application:
+2. Install the required dependencies:
+    ```sh
+    pip install -r requirements.txt
+    ```    
+3. Run the main application:
     ```sh
     python -u home.py
     ```
