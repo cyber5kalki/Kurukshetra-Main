@@ -49,6 +49,29 @@ In the epic Mahabharata, Kurukshetra symbolizes a monumental battle, drawing a p
     ```sh
     python -u home.py
     ```
+### Windows
+
+1. Open a command prompt.
+2. Navigate to the project directory.
+3. Run the following command to start the application:
+    ```sh
+    Kurukshetra.bat
+    ```
+
+### Linux
+
+1. Open a terminal.
+2. Navigate to the project directory.
+3. Make the script executable (if not already executable):
+    ```sh
+    chmod +x Kurukshetra.sh
+    ```
+4. Run the script:
+    ```sh
+    ./Kurukshetra.sh
+    ```
+    
+
 
 ## Application Workflow
 The application's workflow is designed to provide a seamless experience for users. The following steps outline the process
